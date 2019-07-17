@@ -15,6 +15,8 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { HeaderToolbarComponent } from "./components/header-toolbar/header-toolbar.component";
 import { environment } from "src/environments/environment";
 import { AuthModule } from "ng6-md-auth";
+import { AdmissionComponent } from './page/admission/admission.component';
+import { AdstudentComponent } from './pages/adstudent/adstudent.component';
 
 
 const apiSrvCfg = environment;
@@ -25,7 +27,9 @@ const apiSrvCfg = environment;
     HomeComponent,
     RegisterComponent,
     ForgotComponent,
-    HeaderToolbarComponent
+    HeaderToolbarComponent,
+    AdmissionComponent,
+    AdstudentComponent
   ],
   imports: [
     BrowserModule,
