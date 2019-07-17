@@ -15,7 +15,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { HeaderToolbarComponent } from "./components/header-toolbar/header-toolbar.component";
 import { environment } from "src/environments/environment";
 import { AuthModule } from "ng6-md-auth";
-import { AdmissionComponent } from './page/admission/admission.component';
+import { AdmissionComponent } from './pages/admission/admission.component';
 import { AdstudentComponent } from './pages/adstudent/adstudent.component';
 
 
