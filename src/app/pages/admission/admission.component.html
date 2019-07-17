@@ -1,3 +1,13 @@
-<p>
-  admission works!
-</p>
+<h1>รายชื่อนักเรียน</h1>
+<br>
+<br>
+<br>
+<div style="margin: center;">
+  <button (click)="btnAddNewBig()" mat-flat-button color="primary">+ เพิ่มข้อมูลนักเรียน</button>
+</div>
+<div class="row" *ngIf="students.length === 0">
+
+</div>
+<div class="row" *ngIf="students.length > 0">
+
+</div>

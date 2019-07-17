@@ -11,5 +11,8 @@ export class AdmissionComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  btnAddNewBig(){
 
+  }
 }
